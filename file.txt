@@ -1,0 +1,38 @@
+Action: Rename your URLs to use plural nouns when referring to collections of resources (e.g., /products instead of /product).
+Why: Using names that everyone understands makes your API easier to use and maintain.
+
+Give the Right Feedback with HTTP Response Codes:
+Action: Make sure your API returns the right HTTP response codes for different situations.
+
+Why: Correct response codes help both you and others understand what's happening with each request (e.g., 201 Created when something new is made, 404 Not Found when something isn't there).
+Share Useful Information in Response Bodies:
+Action: When something new is created or updated, share helpful info in the response, like where it can be found.
+Why: It's like getting a receipt after a purchase; you want to know what you just did and where to find it.
+
+Keep Your URLs Consistent:
+Action: Make sure your URLs consistently show what's a resource and what's an action.
+Why: Consistency is like following a map with clear directions; it's easier to understand and follow.
+
+Help Users Navigate Through Long Lists with Pagination:
+Action: Add support for pagination, so users can see small chunks of data at a time.
+Why: Imagine reading an encyclopedia; it's easier to handle one page at a time than the whole book.
+
+Let Users Update or Delete Multiple Items at Once:
+Action: Allow users to update or delete multiple items in one go with PUT and DELETE methods.
+Why: It's like allowing people to check out with a shopping cart instead of one item at a time.
+
+Be Careful with Data Input and Handle Errors Gracefully:
+Action: Check the data users send to your API and handle any mistakes gracefully.
+Why: Just like a cashier who double-checks your order to avoid any mix-ups, your API should ensure data accuracy and give clear explanations if something goes wrong.
+
+Use Clear and Consistent Names for Query Parameters:
+Action: Keep query parameter names simple and consistent across your API.
+Why: It's like using common language when asking for directions; it helps everyone understand what you need.
+
+Create a User-Friendly Manual (Documentation):
+Action: Write up a clear guide (documentation) for your API, explaining what it does, how to use it, and what to expect.
+Why: Think of it as providing a user manual for a gadget; it helps people understand and use your API correctly.
+
+Test Thoroughly to Ensure Everything Works as Expected:
+Action: Test your API thoroughly to catch and fix any issues or bugs.
+Why: It's like making sure your car runs smoothly before taking a long road trip; you want everything to work as expected.
